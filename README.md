@@ -90,6 +90,10 @@ The authorization plugin can run as a container application or as a host service
 ```bash
    ExecStart=/usr/bin/docker daemon -H fd:// --authorization-plugin=authz-broker
 ``` 
+
+### Running on a docker swarm mode setup
+
+This setup is not supported at the moment.
   
 # Dev environment
   
